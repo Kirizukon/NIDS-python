@@ -23,13 +23,8 @@ Le but de ce projet est de développer un système de détection d'intrusion ré
    ```bash
    git clone https://github.com/BryanCorret/NIDS.git
    cd nids
+   pip install requirment.txt
    ```
-2. **Installer les depandances**
-
-   ```bash
-   pip install DOC/requirment.txt
-   ```
-   
 ## Lancement des scripts
 1. **Lancer le projet**
 * Il faut lancer Client.py
@@ -40,3 +35,8 @@ Le but de ce projet est de développer un système de détection d'intrusion ré
 python -m unittest discover -s PYTHON/Test
 ```
 
+3.**Faire la doc sphynx**
+   ```bash 
+      sphinx-quickstart
+      make html
+   ```

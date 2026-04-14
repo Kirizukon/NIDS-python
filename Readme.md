@@ -21,7 +21,7 @@ Le but de ce projet est de développer un système de détection d'intrusion ré
 1. **Cloner le dépôt** :
 
    ```bash
-   git clone https://github.com/BryanCorret/NIDS.git
+   git clone https://github.com/Kirizukon/NIDS.git
    cd nids
    ```
 2. **Installer les depandances**
